@@ -3,7 +3,7 @@
         <title>
             Admin
         </title>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/style2.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/style2.css') }}">
     </head>
     <body>
         
