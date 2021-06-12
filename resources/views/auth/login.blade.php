@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>halaman login</title>
-        <link href="{{ asset('css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link href="{{ secure_asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
     </head>
     <body>
         <form class="box" action="/proses" method="POST">
@@ -16,7 +16,7 @@
             <input type="submit" value="Login">
             
         </form>
-        <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
     </body>
     
 </html>
